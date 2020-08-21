@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>系統安裝(進階) | SmallNote</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    <link rel="icon" href="/smallnote/favicon.ico">
+    <meta name="description" content="一個小小筆記本">
+    <link rel="preload" href="/smallnote/assets/css/0.styles.fc672f70.css" as="style"><link rel="preload" href="/smallnote/assets/js/app.a9dce8f6.js" as="script"><link rel="preload" href="/smallnote/assets/js/2.ca8fb24f.js" as="script"><link rel="preload" href="/smallnote/assets/js/4.b4a4184f.js" as="script"><link rel="prefetch" href="/smallnote/assets/js/10.ce632beb.js"><link rel="prefetch" href="/smallnote/assets/js/11.8585e284.js"><link rel="prefetch" href="/smallnote/assets/js/12.fcd5e925.js"><link rel="prefetch" href="/smallnote/assets/js/13.e16d3726.js"><link rel="prefetch" href="/smallnote/assets/js/14.78226544.js"><link rel="prefetch" href="/smallnote/assets/js/15.ba73bb90.js"><link rel="prefetch" href="/smallnote/assets/js/16.3691495b.js"><link rel="prefetch" href="/smallnote/assets/js/17.4afd1708.js"><link rel="prefetch" href="/smallnote/assets/js/18.26a543e3.js"><link rel="prefetch" href="/smallnote/assets/js/19.2091d555.js"><link rel="prefetch" href="/smallnote/assets/js/20.a780e953.js"><link rel="prefetch" href="/smallnote/assets/js/21.5ec0b39c.js"><link rel="prefetch" href="/smallnote/assets/js/22.a6b843cb.js"><link rel="prefetch" href="/smallnote/assets/js/23.cdea3b56.js"><link rel="prefetch" href="/smallnote/assets/js/24.e94d99f3.js"><link rel="prefetch" href="/smallnote/assets/js/25.e9425452.js"><link rel="prefetch" href="/smallnote/assets/js/26.b055012c.js"><link rel="prefetch" href="/smallnote/assets/js/27.51771e16.js"><link rel="prefetch" href="/smallnote/assets/js/28.a8f068c9.js"><link rel="prefetch" href="/smallnote/assets/js/29.eb1618b2.js"><link rel="prefetch" href="/smallnote/assets/js/3.08e06a77.js"><link rel="prefetch" href="/smallnote/assets/js/30.6ea56b3a.js"><link rel="prefetch" href="/smallnote/assets/js/31.cc8ef790.js"><link rel="prefetch" href="/smallnote/assets/js/32.e2187f08.js"><link rel="prefetch" href="/smallnote/assets/js/33.c3cdcd02.js"><link rel="prefetch" href="/smallnote/assets/js/34.f08b5b3f.js"><link rel="prefetch" href="/smallnote/assets/js/35.dbfcdf59.js"><link rel="prefetch" href="/smallnote/assets/js/36.47a714bd.js"><link rel="prefetch" href="/smallnote/assets/js/37.b5d31975.js"><link rel="prefetch" href="/smallnote/assets/js/38.a45f2c6f.js"><link rel="prefetch" href="/smallnote/assets/js/39.bf831442.js"><link rel="prefetch" href="/smallnote/assets/js/40.84f9bddf.js"><link rel="prefetch" href="/smallnote/assets/js/41.8c58c2ca.js"><link rel="prefetch" href="/smallnote/assets/js/42.7513bf6a.js"><link rel="prefetch" href="/smallnote/assets/js/43.f6faca2b.js"><link rel="prefetch" href="/smallnote/assets/js/44.f6639b27.js"><link rel="prefetch" href="/smallnote/assets/js/45.84bfccfc.js"><link rel="prefetch" href="/smallnote/assets/js/46.49cda5b9.js"><link rel="prefetch" href="/smallnote/assets/js/47.3856ebfb.js"><link rel="prefetch" href="/smallnote/assets/js/48.b360da0c.js"><link rel="prefetch" href="/smallnote/assets/js/49.319dfdd0.js"><link rel="prefetch" href="/smallnote/assets/js/5.f4e408a2.js"><link rel="prefetch" href="/smallnote/assets/js/50.652da891.js"><link rel="prefetch" href="/smallnote/assets/js/51.b2b08895.js"><link rel="prefetch" href="/smallnote/assets/js/52.4b675b17.js"><link rel="prefetch" href="/smallnote/assets/js/53.eb643b02.js"><link rel="prefetch" href="/smallnote/assets/js/54.5c8b6c98.js"><link rel="prefetch" href="/smallnote/assets/js/55.cf1da535.js"><link rel="prefetch" href="/smallnote/assets/js/56.28072872.js"><link rel="prefetch" href="/smallnote/assets/js/57.ff61683e.js"><link rel="prefetch" href="/smallnote/assets/js/58.9f9270eb.js"><link rel="prefetch" href="/smallnote/assets/js/59.691fd9a1.js"><link rel="prefetch" href="/smallnote/assets/js/6.a5459564.js"><link rel="prefetch" href="/smallnote/assets/js/60.7914de4a.js"><link rel="prefetch" href="/smallnote/assets/js/61.3edcdb8c.js"><link rel="prefetch" href="/smallnote/assets/js/62.41c9e282.js"><link rel="prefetch" href="/smallnote/assets/js/63.996c19b1.js"><link rel="prefetch" href="/smallnote/assets/js/64.44c54fdd.js"><link rel="prefetch" href="/smallnote/assets/js/65.d54ddc0d.js"><link rel="prefetch" href="/smallnote/assets/js/66.e6acb3ca.js"><link rel="prefetch" href="/smallnote/assets/js/67.ec1d904b.js"><link rel="prefetch" href="/smallnote/assets/js/68.89a72200.js"><link rel="prefetch" href="/smallnote/assets/js/69.c9508a99.js"><link rel="prefetch" href="/smallnote/assets/js/7.a2435653.js"><link rel="prefetch" href="/smallnote/assets/js/70.3b0305fc.js"><link rel="prefetch" href="/smallnote/assets/js/71.8169b3ad.js"><link rel="prefetch" href="/smallnote/assets/js/72.49f9a4b3.js"><link rel="prefetch" href="/smallnote/assets/js/73.aae5a41b.js"><link rel="prefetch" href="/smallnote/assets/js/74.1592da75.js"><link rel="prefetch" href="/smallnote/assets/js/75.80950310.js"><link rel="prefetch" href="/smallnote/assets/js/76.e6221e39.js"><link rel="prefetch" href="/smallnote/assets/js/77.70ebe2c1.js"><link rel="prefetch" href="/smallnote/assets/js/78.a9c008d2.js"><link rel="prefetch" href="/smallnote/assets/js/79.2114b670.js"><link rel="prefetch" href="/smallnote/assets/js/8.1eb6e28a.js"><link rel="prefetch" href="/smallnote/assets/js/80.ba4378a4.js"><link rel="prefetch" href="/smallnote/assets/js/81.e39829d8.js"><link rel="prefetch" href="/smallnote/assets/js/82.75840099.js"><link rel="prefetch" href="/smallnote/assets/js/83.bfbc29f3.js"><link rel="prefetch" href="/smallnote/assets/js/84.540dcf07.js"><link rel="prefetch" href="/smallnote/assets/js/85.363d32ac.js"><link rel="prefetch" href="/smallnote/assets/js/86.309ba222.js"><link rel="prefetch" href="/smallnote/assets/js/87.cdc5bae6.js"><link rel="prefetch" href="/smallnote/assets/js/88.602618a5.js"><link rel="prefetch" href="/smallnote/assets/js/89.8050860c.js"><link rel="prefetch" href="/smallnote/assets/js/9.bbd1fbb1.js"><link rel="prefetch" href="/smallnote/assets/js/90.933cd564.js"><link rel="prefetch" href="/smallnote/assets/js/91.e0728b14.js">
+    <link rel="stylesheet" href="/smallnote/assets/css/0.styles.fc672f70.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/smallnote/" class="home-link router-link-active"><!----> <span class="site-name">SmallNote</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language" class="dropdown-title"><span class="title">Language</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/language/ruby/" class="nav-link">
+  Ruby
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/javascript/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/python/" class="nav-link">
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/rust/" class="nav-link">
+  Rust
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Frontend" class="dropdown-title"><span class="title">Frontend</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/frontend/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/frontend/stimulus/" class="nav-link">
+  Stimulus
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Backend" class="dropdown-title"><span class="title">Backend</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Dynamic
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/backend/rails/" class="nav-link">
+  Rails
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/nuxt/" class="nav-link">
+  Nuxt
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Static
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/backend/jekyll/" class="nav-link">
+  Jekyll
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/vuepress/" class="nav-link">
+  Vuepress
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/hugo/" class="nav-link">
+  Hugo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Database" class="dropdown-title"><span class="title">Database</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Relational
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/database/postgresql/" class="nav-link">
+  PostgreSQL
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/sqlserver/" class="nav-link">
+  SQL Server
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Key‐Value
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/memcached/" class="nav-link">
+  Memcached
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Application" class="dropdown-title"><span class="title">Application</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/application/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/application/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="DevOps" class="dropdown-title"><span class="title">DevOps</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/devops/docker/" class="nav-link">
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/kubernetes/" class="nav-link">
+  Kubernetes
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/proxmoxve/" class="nav-link router-link-active">
+  ProxmoxVE
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/jenkins/" class="nav-link">
+  Jenkins
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/circleci/" class="nav-link">
+  CircleCI
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Others" class="dropdown-title"><span class="title">Others</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/others/git/" class="nav-link">
+  Git
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language" class="dropdown-title"><span class="title">Language</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/language/ruby/" class="nav-link">
+  Ruby
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/javascript/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/python/" class="nav-link">
+  Python
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/language/rust/" class="nav-link">
+  Rust
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Frontend" class="dropdown-title"><span class="title">Frontend</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/frontend/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/frontend/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/frontend/stimulus/" class="nav-link">
+  Stimulus
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Backend" class="dropdown-title"><span class="title">Backend</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Dynamic
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/backend/rails/" class="nav-link">
+  Rails
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/nuxt/" class="nav-link">
+  Nuxt
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Static
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/backend/jekyll/" class="nav-link">
+  Jekyll
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/vuepress/" class="nav-link">
+  Vuepress
+</a></li><li class="dropdown-subitem"><a href="/smallnote/backend/hugo/" class="nav-link">
+  Hugo
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Database" class="dropdown-title"><span class="title">Database</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Relational
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/database/postgresql/" class="nav-link">
+  PostgreSQL
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/sqlserver/" class="nav-link">
+  SQL Server
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Key‐Value
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/smallnote/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-subitem"><a href="/smallnote/database/memcached/" class="nav-link">
+  Memcached
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Application" class="dropdown-title"><span class="title">Application</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/application/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/application/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="DevOps" class="dropdown-title"><span class="title">DevOps</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/devops/docker/" class="nav-link">
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/kubernetes/" class="nav-link">
+  Kubernetes
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/proxmoxve/" class="nav-link router-link-active">
+  ProxmoxVE
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/jenkins/" class="nav-link">
+  Jenkins
+</a></li><li class="dropdown-item"><!----> <a href="/smallnote/devops/circleci/" class="nav-link">
+  CircleCI
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Others" class="dropdown-title"><span class="title">Others</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/smallnote/others/git/" class="nav-link">
+  Git
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Proxmox VE</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/smallnote/devops/proxmoxve/01.html" class="sidebar-link">Proxmox VE 使用手冊</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="系統安裝-進階"><a href="#系統安裝-進階" class="header-anchor">#</a> 系統安裝(進階)</h1> <p>此為進階使用者的安裝方式，適合進階實務使用，請準備 2 個 USB3.0 的隨身碟，本例中將使用隨身碟作為 Raid1 的系統磁區。
+此範例中硬碟分配為:</p> <ol><li>2 個 8GB 硬碟(模擬為 USB3.0 隨身碟)</li> <li>1 個 16GB 硬碟(模擬為一般硬碟)</li></ol> <h2 id="一、系統安裝"><a href="#一、系統安裝" class="header-anchor">#</a> 一、系統安裝</h2> <ul><li><p>使用 <strong>USB開機碟</strong> 進行開機：</p> <img src="/smallnote/assets/img/01.5991f26e.png" width="70%"> <br><br></li> <li><p>同意使用條款</p> <img src="/smallnote/assets/img/02.57ec0a16.png" width="70%"> <br><br></li> <li><p>點擊 <strong>Options</strong> ，這邊我們選用 zfs 作為 rootfs</p> <img src="/smallnote/assets/img/03.ce7a8d1f.png" width="70%"> <br><br></li> <li><p>此範例中有 2 個隨身碟，選擇 zfs 的 Raid1 軟體陣列以確保資料安全</p> <img src="/smallnote/assets/img/04.b8760535.png" width="70%"> <br><br></li> <li><p>壓縮模式選擇 <strong>lz4</strong> 較為快速，也吃比較少資源</p> <img src="/smallnote/assets/img/05.ccd48b2f.png" width="70%"> <br><br></li> <li><p>時區、國家、語言設定，通常只會修改時間跟國家的選項</p> <img src="/smallnote/assets/img/06.70fdab75.png" width="70%"> <br><br></li> <li><p>設定 root 的密碼以及管理者的 email</p> <img src="/smallnote/assets/img/07.a7ac384d.png" width="70%"> <br><br></li> <li><p>設定 IP，請依照主機的網路環境進行修改</p> <img src="/smallnote/assets/img/08.a6d777fe.png" width="70%"> <br><br></li> <li><p>因為使用隨身碟，安裝系統可能需要一點時間</p> <img src="/smallnote/assets/img/09.0a2618f5.png" width="70%"> <br><br></li> <li><p>安裝完畢，重新啟動</p> <img src="/smallnote/assets/img/10.352714a2.png" width="70%"> <br><br></li></ul> <h2 id="二、-usb-優化"><a href="#二、-usb-優化" class="header-anchor">#</a> 二、 USB 優化</h2> <p>因為 Proxmox VE 內某些資料夾會經常讀取，隨身碟可能會不堪負荷，壽命減短，而且速度也不優，本例將以一個 16 GB 大小的 zpool 當作 HDD ，將以下資料夾掛載到 HDD pool 之中:</p> <p><em>Reference : <a href="https://goo.gl/j4mTdx" target="_blank" rel="noopener noreferrer">Proxmox VE 伺服器虛擬化管理平台 使用者社團<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></em></p> <p><code>swap</code> <code>/var/lib/vz</code> <code>/var/cache</code> <code>/var/log</code></p> <ul><li><p>直接使用 SSH 連線進入 Proxmox VE 主機，使用<code>fdisk -l</code>查詢傳統硬碟 :</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# fdisk -l
+
+Disk /dev/sdc: 16 GiB, 17179869184 bytes, 33554432 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk /dev/zd0: 896 MiB, 939524096 bytes, 1835008 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+</code></pre></div></li> <li><p>建立 zpool :</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# zpool create HardDisk /dev/sdc
+
+root@pve:~# zpool status
+  pool: HardDisk
+ state: ONLINE
+  scan: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        HardDisk    ONLINE       0     0     0
+        sdc       ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: rpool
+ state: ONLINE
+  scan: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        rpool       ONLINE       0     0     0
+          mirror-0  ONLINE       0     0     0
+            sda2    ONLINE       0     0     0
+            sdb2    ONLINE       0     0     0
+
+errors: No known data errors
+</code></pre></div></li> <li><p>建立 dataset</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# zfs create HardDisk/cache
+root@pve:~# zfs create HardDisk/cache/vz
+root@pve:~# zfs create HardDisk/cache/cache
+root@pve:~# zfs create HardDisk/cache/log
+root@pve:~# zfs list 
+NAME                   USED  AVAIL  REFER  MOUNTPOINT
+HardDisk               166K  15.4G    19K  /HardDisk
+HardDisk/cache          95K  15.4G    19K  /HardDisk/cache
+HardDisk/cache/cache    19K  15.4G    19K  /HardDisk/cache/cache
+HardDisk/cache/log      19K  15.4G    19K  /HardDisk/cache/log
+HardDisk/cache/vz       19K  15.4G    19K  /HardDisk/cache/vz
+rpool                 1.63G  6.06G    96K  /rpool
+rpool/ROOT             714M  6.06G    96K  /rpool/ROOT
+rpool/ROOT/pve-1       714M  6.06G   714M  /
+rpool/data              96K  6.06G    96K  /rpool/data
+rpool/swap             953M  6.99G    64K  -
+</code></pre></div></li> <li><p>使用 zfs 建立 swap，容量依據自身需求調整</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# zfs create -V 8G HardDisk/swap
+root@pve:~# mkswap /dev/zvol/HardDisk/swap
+Setting up swapspace version 1, size = 8388604 KiB
+no label, UUID=9c239646-d67a-4ea6-b56a-aabc04ffb9c7
+</code></pre></div></li> <li><p>修改 <code>/etc/fstab</code>，將原本在 USB 內的 swap 換成新的路徑</p></li> <li><p>修改剛剛建立的 zfs 之掛載點</p> <ul><li><p><code>/var/lib/vz</code></p> <p>移動資料夾內的東西到新的 dataset 中，這樣才有辦法修改掛載點</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# rsync -avx /var/lib/vz/* /HardDisk/cache/vz
+root@pve:~# zfs set mountpoint=/var/lib/vz HardDisk/cache/vz
+</code></pre></div></li> <li><p><code>/var/cache</code></p> <p>移動資料夾內的東西到新的 dataset 中，這樣才有辦法修改掛載點</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# rsync -avx /var/cache/* /HardDisk/cache/cache
+root@pve:~# zfs set mountpoint=/var/cache HardDisk/cache/cache
+</code></pre></div></li> <li><p><code>/var/log</code></p> <p>移動資料夾內的東西到新的 dataset 中，這樣才有辦法修改掛載點</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# rsync -avx /var/log/* /HardDisk/cache/log
+root@pve:~# zfs set mountpoint=/var/log HardDisk/cache/log
+</code></pre></div></li></ul></li> <li><p>重新啟動，成功移動常讀寫的資料夾到 HHD 中，記得把原本 rpool 內的 swap 刪掉</p> <div class="language- extra-class"><pre class="language-text"><code>root@pve:~# zfs list 
+NAME                   USED  AVAIL  REFER  MOUNTPOINT
+HardDisk              8.25G  7.13G    19K  /HardDisk
+HardDisk/cache         805K  7.13G    19K  /HardDisk/cache
+HardDisk/cache/cache    19K  7.13G    19K  /var/cache
+HardDisk/cache/log     748K  7.13G   748K  /var/log
+HardDisk/cache/vz       19K  7.13G    19K  /var/lib/vz
+HardDisk/swap         8.25G  15.4G    16K  -
+rpool                 1.63G  6.06G    96K  /rpool
+rpool/ROOT             710M  6.06G    96K  /rpool/ROOT
+rpool/ROOT/pve-1       710M  6.06G   710M  /
+rpool/data              96K  6.06G    96K  /rpool/data
+</code></pre></div></li></ul> <h2 id="rootdelay"><a href="#rootdelay" class="header-anchor">#</a> rootdelay</h2> <p>因為使用的是 USB 作為 rootfs ，可能在還沒掛載完畢 (root)，系統就進行開機，導致開機失敗，可以修改 grub 設定，延長開機時間來避免這個狀況發生</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/anxgang/smallnote/edit/master/docs/devops/proxmoxve/01/doc/01.installation.advance.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最後更新時間:</span> <span class="time">2020-8-21 11:45:09</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/smallnote/assets/js/app.a9dce8f6.js" defer></script><script src="/smallnote/assets/js/2.ca8fb24f.js" defer></script><script src="/smallnote/assets/js/4.b4a4184f.js" defer></script>
+  </body>
+</html>
